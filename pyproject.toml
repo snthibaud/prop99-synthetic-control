@@ -1,0 +1,15 @@
+[project]
+name = "prop99-synthetic-control"
+version = "0.1.0"
+description = "Synthetic control replication of Abadie, Diamond and Hainmueller (2010): California's Proposition 99"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scipy>=1.13",
+    "matplotlib>=3.9",
+    "ipykernel>=6.29",
+]
+
+[tool.uv]
+package = false
